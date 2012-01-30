@@ -1,0 +1,306 @@
+
+
+html { 
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: tahoma, verdana, gulim, 굴림,sans-serif;
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    text-align: center;/*가운데 정렬*/
+	COLOR: #333333; FONT-SIZE: 12px
+	scrollbar-face-color: white; 
+	scrollbar-shadow-color: #8A8A8A; 
+	scrollbar-highlight-color: white; 
+	scrollbar-3dlight-color: #8A8A8A; 
+	scrollbar-darkshadow-color: white; 
+	scrollbar-track-color: white;
+	scrollbar-arrow-color: #8A8A8A}
+} 
+
+
+a {
+    text-decoration: none;
+	font-weight: bold;
+    color: black;
+}
+td {font-family: "굴림"; font-size: 9pt; line-height:16px ; color: #666666}
+INPUT { border-style:solid; border-color:black; border-width:1 }
+TEXTAREA { border-style:solid; border-color:black; border-width:1 }
+
+
+/*wrap */
+#wrap {
+    background: #eee url(wrap.gif) no-repeat top left;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+}
+/*wrap ie - ie에서는 width, height값에 padding, border 값등을 더한 값을 주어야 한다 */
+* html #wrap {
+    width: 100%;
+}
+/* header 부분 */
+
+/* id= header 로 정해진곳을 부릅니다 */
+#header {
+    background: #ababee;	/* url(header.gif);*/
+    border: 2px solid #eee;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+
+#admin_header {
+    background: #66abec;	/* url(header.gif);*/
+    border: 2px solid #eee;
+    width: 900px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+/*sidebar 부분 */
+.sidebar {
+    width: 170px;
+    padding: 0;
+    margin: 0;
+    background: #eee url(sidebar.gif) no-repeat top left;
+    float:left; /*왼쪽으로 붙입니다*/
+}
+.sidebar ul  {
+    padding: 0;
+    margin: 0px;
+}
+.sidebar ul li {
+    padding: 0;
+    margin: 0;
+    list-style-image: none;
+    list-style-type: none;
+}
+
+/* menu 의 링크 꾸미기 없게*/
+.sidebar ul li a {
+    text-decoration: none;
+}
+
+/* content 부분 */
+#content {
+    float: left;
+    width: 83%;
+	height: 480px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: #bbb;
+}
+
+#content .mid {
+    float: left;
+    width: 350px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background: #ddd;
+}
+
+#content .right {
+    float: left;
+    width: 350px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background: #ccc;
+}
+
+.writing {
+    line-height: 150%;
+    letter-space: .2em;
+    margin:0;
+    width: 245px;
+}
+
+.hspace {
+    float: left;
+    width: 10px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #fff;/*transparent*/
+}
+.vspace {
+    width: auto;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    background: #fff;/*transparent*/
+    clear:both;
+}
+
+/* id= footer 로 정해진곳을 부릅니다 */
+#footer {
+    background: #333; /* url(footer.gif);*/
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+	color:gray;
+}
+
+
+.tabletitle {
+	color: #FFFFFF;
+	text-align: center;
+}
+.tabledate {
+	border-right: #cccccc solid 1px;
+	color: #663333;
+	font-style: italic;
+	text-align: right;
+}
+
+.changelog {
+	border-bottom: #cccccc solid 1px;
+}
+
+.timeline {
+	border-bottom: #cccccc solid 1px;
+	padding-left: 10px;
+}
+
+.timeline ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.timeline lu {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* 스크롤 정의 */
+body { scrollbar-face-color:#EAEAEA;
+scrollbar-shadow-color:#f7f7f7;
+scrollbar-highlight-color:#f7f7f7;
+scrollbar-3dlight-color:#999999;
+scrollbar-darkshadow-color:#666666;
+scrollbar-track-color:#f7f7f7;
+scrollbar-arrow-color:#238020; }
+
+/* 테이블에 대한 기본 스타일 정의 */
+font {font-family: "굴림"; font-size: 10pt; line-height:16px ; color: #222222}
+td {font-family: "굴림"; font-size: 9pt; line-height:16px ; color: #222222}
+
+table
+{
+	table-border-color-light: rgb(153,204,153);
+	table-border-color-dark: rgb(153,204,153); 
+}
+
+
+
+A:link		{font-family: "굴림"; COLOR:#333333; FONT-SIZE:9pt;TEXT-DECORATION: none}
+A:visited	{font-family: "굴림";COLOR:#333333;FONT-SIZE: 9pt;TEXT-DECORATION: none}
+A:active	{font-family: "굴림";COLOR: #333333; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+A:hover		{font-family: "굴림";COLOR:#E35A18; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+
+/* 테이블 박스의 제목줄 */
+.tabletitle { color: white; }
+.font115 { FONT-SIZE:11.5px ; FONT-FAMILY: 돋움,arial,Tahoma, Arial;}
+
+.centerLocation
+{
+    PADDING-LEFT: 5px
+}
+.centerLocationT
+{
+    PADDING-LEFT: 5px
+}
+.centerTip
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10pt;
+    COLOR: #404040;
+    LINE-HEIGHT: 150%;
+    FONT-FAMILY: 돋움;
+    TEXT-ALIGN: right
+}
+.centerTip2
+{
+    FONT-SIZE: 10pt;
+    COLOR: #404040;
+    LINE-HEIGHT: 150%;
+    FONT-FAMILY: 돋움
+}
+.search_box
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9pt;
+    COLOR: darkblue;
+    LINE-HEIGHT: 150%;
+    FONT-FAMILY: 돋움;
+    TEXT-ALIGN: right
+}
+
+.eprint_center
+{
+    BORDER-RIGHT: #999999 0px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #999999 0px solid;
+    PADDING-LEFT: 15px;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #999999 0px solid;
+    COLOR: #333333;
+    LINE-HEIGHT: 120%;
+    PADDING-TOP: 6px;
+    BORDER-BOTTOM: #999999 0px solid
+}
+.eprint_center2
+{
+    BORDER-RIGHT: #999999 0px solid;
+    BORDER-TOP: #999999 0px solid;
+    PADDING-LEFT: 1px;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #999999 0px solid;
+    COLOR: #666666;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #999999 0px solid;
+    FONT-FAMILY: 돋움
+}
+
+.flash
+{
+    FONT-SIZE: 9pt;
+    PADDING-BOTTOM: 0px;
+    VERTICAL-ALIGN: bottom;
+    LINE-HEIGHT: 100%;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: 굴림
+}
+.topMenu
+{
+    BORDER-TOP-WIDTH: 0px;
+    PADDING-RIGHT: 8px;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: 9pt;
+    BORDER-BOTTOM-WIDTH: 0px;
+    BORDER-BOTTOM-COLOR: #83b1d1;
+    COLOR: #f1f1f1;
+    BORDER-TOP-COLOR: #83b1d1;
+    LINE-HEIGHT: 170%;
+    FONT-FAMILY: 돋움;
+    BORDER-RIGHT-WIDTH: 0px;
+    BORDER-RIGHT-COLOR: #999999
+}

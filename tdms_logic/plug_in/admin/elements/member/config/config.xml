@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='euc-kr' standalone='yes' ?>
+<config>
+	<settings>
+		<title>사이트 회원 관리</title>
+		<content>회원 관리 테이블</content>
+		<tbcolor>
+			<base>#5A1CE2</base>
+			<sub>#cfdfef</sub>
+			<line>#CDCDCD</line>
+		</tbcolor>
+		<tbwidth>710</tbwidth>
+		<plugin>ADMIN</plugin>
+	</settings>
+
+	<database>
+		<dsn>mysqli://root@localhost/tdms</dsn>
+		<table>TDMS_MEMBERS</table>
+
+		<join>
+			<type></type>
+			<target></target>
+			<condition></condition>
+			<order></order>
+		</join>
+
+
+		<fields>
+			<field>
+				<alias>일련번호</alias>
+				<fieldname>ID</fieldname>
+				<string>false</string>
+				<component></component>
+				<settings>
+					<setting>
+						<title></title>
+						<value></value>
+					</setting>
+				</settings>
+			</field>
+			<field>
+				<alias>유형</alias>
+				<fieldname>CODE</fieldname>
+				<string>true</string>
+				<component>TSEL</component>
+				<settings>
+					<setting>
+						<title>관리자</title>
+						<value>관리자</value>
+					</setting>
+					<setting>
+						<title>운영자</title>
+						<value>운영자</value>
+					</setting>
+					<setting>
+						<title>일반회원</title>
+						<value>일반회원</value>
+					</setting>
+				</settings>
+			</field>
+			<field>
+				<alias>코드번호</alias>
+				<fieldname>CODENUMBER</fieldname>
+				<string>true</string>
+				<component>TBOX/5/15</component>
+				<settings>
+					<setting>
+						<title></title>
+						<value></value>
+					</setting>
+				</settings>
+			</field>
+
+	
+			<field>
+				<alias>아이디</alias>
+				<fieldname>userid</fieldname>
+				<string>true</string>
+				<component>TBOX/16/25</component>
+				<settings>
+					<setting>
+						<title></title>
+						<value></value>
+					</setting>
+				</settings>
+			</field>
+
+			<field>
+				<alias>비밀번호</alias>
+				<fieldname>password</fieldname>
+				<string>true</string>
+				<component>TBOX/16/25</component>
+				<settings>
+					<setting>
+						<title></title>
+						<value></value>
+					</setting>
+				</settings>
+			</field>
+			
+			<field>
+				<alias>사용자명</alias>
+				<fieldname>fullname</fieldname>
+				<string>true</string>
+				<component>TBOX/35/25</component>
+				<settings>
+					<setting>
+						<title></title>
+						<value></value>
+					</setting>
+				</settings>
+			</field>
+
+			<field>
+				<alias>사용유무</alias>
+				<fieldname>disabled</fieldname>
+				<string>true</string>
+				<component>TSEL/16/25</component>
+				<settings>
+					<setting>
+						<title>Y</title>
+						<value>Y</value>
+					</setting>
+					<setting>
+						<title>N</title>
+						<value>N</value>
+					</setting>
+				</settings>
+			</field>
+
+			<field>
+				<alias>등록일자</alias>
+				<fieldname>regdate</fieldname>
+				<string>true</string>
+				<component>DATE/10/255</component>
+				<settings>
+					<setting>
+						<title></title>
+						<value></value>
+					</setting>
+				</settings>
+			</field>
+		
+		</fields>
+
+		<tbitem> </tbitem>
+	</database>
+</config>

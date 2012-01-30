@@ -1,0 +1,74 @@
+BODY 
+{
+	COLOR: #333333; FONT-SIZE: 12px
+	scrollbar-face-color: white; 
+	scrollbar-shadow-color: #8A8A8A; 
+	scrollbar-highlight-color: white; 
+	scrollbar-3dlight-color: #8A8A8A; 
+	scrollbar-darkshadow-color: white; 
+	scrollbar-track-color: white;
+	scrollbar-arrow-color: #8A8A8A}
+
+
+
+}
+
+/* Å×ÀÌºí¿¡ ´ëÇÑ ±âº» ½ºÅ¸ÀÏ Á¤ÀÇ */
+td {font-family: "±¼¸²"; font-size: 9pt; line-height:16px ; color: #666666}
+
+INPUT { border-style:solid; border-color:black; border-width:1 }
+TEXTAREA { border-style:solid; border-color:black; border-width:1 }
+.percent160 {LINE-HEIGHT:160%}
+
+
+.percent130 {LINE-HEIGHT:130%}
+
+.font115 { FONT-SIZE:11.5px ; FONT-FAMILY: µ¸¿ò,arial,Tahoma, Arial;}
+
+.font11 { FONT-SIZE:11px ; FONT-FAMILY: µ¸¿ò,arial,Tahoma, Arial;}
+
+.font10 { FONT-SIZE:10px ; FONT-FAMILY: µ¸¿ò,arial,Tahoma, Arial;}
+
+A:link {	COLOR:#333333; FONT-SIZE:12px;TEXT-DECORATION: none}
+A:visited {	COLOR:#333333;FONT-SIZE: 12px;TEXT-DECORATION: none}
+A:active {	COLOR: #333333; FONT-SIZE: 12px; TEXT-DECORATION: none}
+A:hover {	color:#E35A18; FONT-SIZE: 12px; TEXT-DECORATION: none}
+
+
+A.a1:link {	COLOR: #333333; FONT-SIZE: 12px; TEXT-DECORATION: none}
+A.a1:visited {	COLOR: #333333; FONT-SIZE: 12px; TEXT-DECORATION: none}
+A.a1:active {	COLOR: #333333; FONT-SIZE: 12px; TEXT-DECORATION: none}
+A.a1:hover {	color:#92908F; FONT-SIZE: 12px; TEXT-DECORATION: none}
+
+
+
+
+.list {  background-color: #CFE3F9 ;color:#003365 ;FONT-SIZE:12px;  FONT-FAMILY: ±¼¸²,arial,Tahoma, Arial; }
+
+.list2 {  background-color: #ffffff; color: #FF4500 ;FONT-SIZE:12px ; FONT-FAMILY: ±¼¸²,arial,Tahoma, Arial; }
+
+
+.input { background-color: #D7D4C3; color:#000000 ; font-size:12px ;font-family: ±¼¸²,arial, tahoma, arial;}
+
+.msize
+{
+    FONT-SIZE: 19px;
+    FONT-FAMILY: ±¼¸²
+}
+.Lsize
+{
+    FONT-SIZE: 17px;
+    FONT-FAMILY: ±¼¸²Ã¼
+}
+.Ssize
+{
+    FONT-SIZE: 14px
+}
+.bigsize
+{
+    FONT-SIZE: 22px;
+    COLOR: white;
+    FONT-FAMILY: ±¼¸²Ã¼
+}
+
+

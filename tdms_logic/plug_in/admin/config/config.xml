@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='euc-kr' standalone='yes' ?>
+<config>
+	<settings>
+		<title>관리자 모드</title>
+		<content>관리자가 설정하는 옵션을 모아둔 플러그인</content>
+
+		<plugin>ADMIN</plugin>
+	</settings>
+
+	<database>
+		<dsn>mysqli://root@localhost/tdms</dsn>
+	
+	</database>
+</config>

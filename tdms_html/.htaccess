@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 만일 파일이나 디렉토리가 존재하지 않으면 
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    # 아래 구문 실행(QSA는 이전 url내용에 덧붙임 가능하게 함, L은 마지막)
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>

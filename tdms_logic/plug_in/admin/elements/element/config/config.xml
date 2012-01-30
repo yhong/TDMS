@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='euc-kr' standalone='yes' ?>
+<config>
+	<settings>
+		<title>사이트 서비스 관리</title>
+		<content>서비스 관리 테이블</content>
+		<tbcolor>
+			<base>#5A1CE2</base>
+			<sub>#12A2C2</sub>
+			<line>#CDCDCD</line>
+		</tbcolor>
+		<tbwidth>710</tbwidth>
+		<plugin>ADMIN</plugin>
+	</settings>
+
+	<database>
+		<dsn>mysqli://root@localhost/tdms</dsn>
+	</database>
+</config>

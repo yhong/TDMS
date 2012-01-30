@@ -1,0 +1,7 @@
+The ? License
+
+tdms (tm) :  Total Database Management System
+Copyright 2009.
+
+this permission notice shall be included in
+all copies or substantial portions of the Software.

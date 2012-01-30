@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='euc-kr' standalone='yes' ?>
+<config>
+	<settings>
+		<title>STAT 통계 플러그인</title>
+		<content>STAT 통계 플러그인을 시험합니다.</content>
+\
+		<plugin>STAT</plugin>
+	</settings>
+
+	<database>
+		<dsn>mysqli://root@localhost/tdms</dsn>
+	
+	</database>
+</config>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='euc-kr' standalone='yes' ?>
+<config>
+	<settings>
+		<title>아이템 관리</title>
+		<content>이 서비스는 품목 관리 테이블을 관리 해 주는 것 입니다</content>
+		<plugin></plugin>
+	</settings>
+
+	<database>
+		<dsn>mysqli://root@localhost/tdms</dsn>
+	</database>
+</config>
