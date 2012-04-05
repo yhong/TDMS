@@ -15,10 +15,10 @@ function SearchWindow(winname, ref)
 		open_window(winname, ref, window_left, window_top, 840, 600, 0, 0, 0, 1, 0)
 }
 
-//¾È³»¹® Ã¢À» ¶ç¿ì´Â ºÎºĞ
+//ì•ˆë‚´ë¬¸ ì°½ì„ ë„ìš°ëŠ” ë¶€ë¶„
 //////////////////////////
 
-//<!-- »õÃ¢¶ç¿ì±â ¹æÁö-->
+//<!-- ìƒˆì°½ë„ìš°ê¸° ë°©ì§€-->
 
 function getCookie(Name) {
 	var search = Name + "="
@@ -38,18 +38,18 @@ function getCookie(Name) {
 	}
 }
 
-//<!--»õÃ¢¶ç¿ì±â ¹æÁö ³¡-->
+//<!--ìƒˆì°½ë„ìš°ê¸° ë°©ì§€ ë-->
 function opwin()
 {
 	if (getCookie("error") != "done")
 	{
-	//	open_window('Alert','error/error.html', 30, 50, 500, 400, 0, 0, 0, 0, 0); // ¼­¹öÁ¡°Ë
-	//	open_window('Alert','error/error1.html', 30, 50, 500, 400, 0, 0, 0, 0, 0);  // º´Àû,º¸ÈÆ½Ã½ºÅÛ ¿¡·¯
-	//	open_window('Alert','error/error2.html', 235, 0, 500, 380, 0, 0, 0, 0, 0);  // ½Ã½ºÅÛ Á¡°ËÀ¸·Î ÀÎÇÑ ¼­ºñ½ºÁß´Ü
-	//	open_window('Alert','error/bohun_error.html', 235, 0, 500, 380, 0, 0, 0, 0, 0); // º¸ÈÆ½Ã½ºÅÛ ¿¡·¯
-	//	open_window('Alert','error/error3.html', 235, 0, 500, 380, 0, 0, 0, 0, 0);  // mysql ¿¡·¯
-	//	open_window('Alert','error/error4.html', 235, 0, 500, 380, 0, 0, 0, 0, 0);  // ½Ã½ºÅÛ Á¡°Ë
-	//	open_window('Alert','error/notice.html', 235, 0, 300, 320, 0, 0, 0, 0, 0);  // ÀÏ¹İ°øÁö»çÇ×
+	//	open_window('Alert','error/error.html', 30, 50, 500, 400, 0, 0, 0, 0, 0); // ì„œë²„ì ê²€
+	//	open_window('Alert','error/error1.html', 30, 50, 500, 400, 0, 0, 0, 0, 0);  // ë³‘ì ,ë³´í›ˆì‹œìŠ¤í…œ ì—ëŸ¬
+	//	open_window('Alert','error/error2.html', 235, 0, 500, 380, 0, 0, 0, 0, 0);  // ì‹œìŠ¤í…œ ì ê²€ìœ¼ë¡œ ì¸í•œ ì„œë¹„ìŠ¤ì¤‘ë‹¨
+	//	open_window('Alert','error/bohun_error.html', 235, 0, 500, 380, 0, 0, 0, 0, 0); // ë³´í›ˆì‹œìŠ¤í…œ ì—ëŸ¬
+	//	open_window('Alert','error/error3.html', 235, 0, 500, 380, 0, 0, 0, 0, 0);  // mysql ì—ëŸ¬
+	//	open_window('Alert','error/error4.html', 235, 0, 500, 380, 0, 0, 0, 0, 0);  // ì‹œìŠ¤í…œ ì ê²€
+	//	open_window('Alert','error/notice.html', 235, 0, 300, 320, 0, 0, 0, 0, 0);  // ì¼ë°˜ê³µì§€ì‚¬í•­
 	}
 }
 //////////////////////////
@@ -96,7 +96,7 @@ function na_change_img_src(name, nsdoc, rpath, preload)
 
 function logincheck(form){
 	if(form.id.value.length == 0){
-		alert('°èÁ¤À» ÀÔ·ÂÇØÁÖ¼¼¿ä!');
+		alert('ê³„ì •ì„ ì…ë ¥í•´ì£¼ì„¸ìš”!');
 	}else{
 		myloginform.submit();
 	}

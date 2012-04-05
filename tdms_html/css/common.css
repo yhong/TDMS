@@ -13,8 +13,8 @@ BODY
 
 }
 
-/* ≈◊¿Ã∫Ìø° ¥Î«— ±‚∫ª Ω∫≈∏¿œ ¡§¿« */
-td {font-family: "±º∏≤"; font-size: 9pt; line-height:16px ; color: #666666}
+/* ÌÖåÏù¥Î∏îÏóê ÎåÄÌïú Í∏∞Î≥∏ Ïä§ÌÉÄÏùº Ï†ïÏùò */
+td {font-family: "Íµ¥Î¶º"; font-size: 9pt; line-height:16px ; color: #666666}
 
 INPUT { border-style:solid; border-color:black; border-width:1 }
 TEXTAREA { border-style:solid; border-color:black; border-width:1 }
@@ -23,11 +23,11 @@ TEXTAREA { border-style:solid; border-color:black; border-width:1 }
 
 .percent130 {LINE-HEIGHT:130%}
 
-.font115 { FONT-SIZE:11.5px ; FONT-FAMILY: µ∏øÚ,arial,Tahoma, Arial;}
+.font115 { FONT-SIZE:11.5px ; FONT-FAMILY: ÎèãÏõÄ,arial,Tahoma, Arial;}
 
-.font11 { FONT-SIZE:11px ; FONT-FAMILY: µ∏øÚ,arial,Tahoma, Arial;}
+.font11 { FONT-SIZE:11px ; FONT-FAMILY: ÎèãÏõÄ,arial,Tahoma, Arial;}
 
-.font10 { FONT-SIZE:10px ; FONT-FAMILY: µ∏øÚ,arial,Tahoma, Arial;}
+.font10 { FONT-SIZE:10px ; FONT-FAMILY: ÎèãÏõÄ,arial,Tahoma, Arial;}
 
 A:link {	COLOR:#333333; FONT-SIZE:12px;TEXT-DECORATION: none}
 A:visited {	COLOR:#333333;FONT-SIZE: 12px;TEXT-DECORATION: none}
@@ -43,22 +43,22 @@ A.a1:hover {	color:#92908F; FONT-SIZE: 12px; TEXT-DECORATION: none}
 
 
 
-.list {  background-color: #CFE3F9 ;color:#003365 ;FONT-SIZE:12px;  FONT-FAMILY: ±º∏≤,arial,Tahoma, Arial; }
+.list {  background-color: #CFE3F9 ;color:#003365 ;FONT-SIZE:12px;  FONT-FAMILY: Íµ¥Î¶º,arial,Tahoma, Arial; }
 
-.list2 {  background-color: #ffffff; color: #FF4500 ;FONT-SIZE:12px ; FONT-FAMILY: ±º∏≤,arial,Tahoma, Arial; }
+.list2 {  background-color: #ffffff; color: #FF4500 ;FONT-SIZE:12px ; FONT-FAMILY: Íµ¥Î¶º,arial,Tahoma, Arial; }
 
 
-.input { background-color: #D7D4C3; color:#000000 ; font-size:12px ;font-family: ±º∏≤,arial, tahoma, arial;}
+.input { background-color: #D7D4C3; color:#000000 ; font-size:12px ;font-family: Íµ¥Î¶º,arial, tahoma, arial;}
 
 .msize
 {
     FONT-SIZE: 19px;
-    FONT-FAMILY: ±º∏≤
+    FONT-FAMILY: Íµ¥Î¶º
 }
 .Lsize
 {
     FONT-SIZE: 17px;
-    FONT-FAMILY: ±º∏≤√º
+    FONT-FAMILY: Íµ¥Î¶ºÏ≤¥
 }
 .Ssize
 {
@@ -68,7 +68,7 @@ A.a1:hover {	color:#92908F; FONT-SIZE: 12px; TEXT-DECORATION: none}
 {
     FONT-SIZE: 22px;
     COLOR: white;
-    FONT-FAMILY: ±º∏≤√º
+    FONT-FAMILY: Íµ¥Î¶ºÏ≤¥
 }
 
 

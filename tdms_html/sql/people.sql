@@ -7,4 +7,4 @@ create table people(
 	primary key(id)
 );
 
-insert into people(user_id,user_password,full_name,disabled) values('U1','1234','판매담당','N');
+insert into people(user_id,user_password,full_name,disabled) values('U1','1234','','N');

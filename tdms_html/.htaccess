@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # 만일 파일이나 디렉토리가 존재하지 않으면 
+    # 만일 파일이나 디렉토리가 존재하지 않으면
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
 

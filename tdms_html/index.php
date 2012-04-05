@@ -1,9 +1,4 @@
 <?php
-/*
-	아파치에서 반드시 mod_rewrite 를 켜고, 디렉토리 속성을  AllowOverride All 하도록 한다.
-*/
-	// 초기화 및 인클루드 담당
-
 	if (!defined('D_S')) {
 		define('D_S', DIRECTORY_SEPARATOR);
 	}
@@ -28,7 +23,7 @@
 	$session_tmp_dir = WWW_ROOT.D_S."temp";
 	session_save_path ($session_tmp_dir);
 
-	// function 모임 가장 상위에 있어야 함(include 순서는 꼭 지키도록 한다)
+	// function     (include    )
 	require_once CORE_ROOT . D_S . 'libs' . D_S . 'func.php';
 
 	require_once LOGIC_ROOT . D_S . 'config' . D_S . 'alias.php';

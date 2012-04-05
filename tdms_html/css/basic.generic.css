@@ -5,13 +5,13 @@ html {
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: tahoma, verdana, gulim, ±¼¸²,sans-serif;
+    font-family: tahoma, verdana, gulim, êµ´ë¦¼,sans-serif;
     font-size: 12px;
 }
 
 body {
     margin: 0;
-    text-align: center;/*°¡¿îµ¥ Á¤·Ä*/
+    text-align: center;/*ê°€ìš´ë° ì •ë ¬*/
 	COLOR: #333333; FONT-SIZE: 12px
 	scrollbar-face-color: white; 
 	scrollbar-shadow-color: #8A8A8A; 
@@ -28,7 +28,7 @@ a {
 	font-weight: bold;
     color: black;
 }
-td {font-family: "±¼¸²"; font-size: 9pt; line-height:16px ; color: #666666}
+td {font-family: "êµ´ë¦¼"; font-size: 9pt; line-height:16px ; color: #666666}
 INPUT { border-style:solid; border-color:black; border-width:1 }
 TEXTAREA { border-style:solid; border-color:black; border-width:1 }
 
@@ -41,13 +41,13 @@ TEXTAREA { border-style:solid; border-color:black; border-width:1 }
     margin: 0 auto;
     text-align: left;
 }
-/*wrap ie - ie¿¡¼­´Â width, height°ª¿¡ padding, border °ªµîÀ» ´õÇÑ °ªÀ» ÁÖ¾î¾ß ÇÑ´Ù */
+/*wrap ie - ieì—ì„œëŠ” width, heightê°’ì— padding, border ê°’ë“±ì„ ë”í•œ ê°’ì„ ì£¼ì–´ì•¼ í•œë‹¤ */
 * html #wrap {
     width: 100%;
 }
-/* header ºÎºĞ */
+/* header ë¶€ë¶„ */
 
-/* id= header ·Î Á¤ÇØÁø°÷À» ºÎ¸¨´Ï´Ù */
+/* id= header ë¡œ ì •í•´ì§„ê³³ì„ ë¶€ë¦…ë‹ˆë‹¤ */
 #header {
     background: #ababee;	/* url(header.gif);*/
     border: 2px solid #eee;
@@ -67,13 +67,13 @@ TEXTAREA { border-style:solid; border-color:black; border-width:1 }
     margin: 0;
 }
 
-/*sidebar ºÎºĞ */
+/*sidebar ë¶€ë¶„ */
 .sidebar {
     width: 170px;
     padding: 0;
     margin: 0;
     background: #eee url(sidebar.gif) no-repeat top left;
-    float:left; /*¿ŞÂÊÀ¸·Î ºÙÀÔ´Ï´Ù*/
+    float:left; /*ì™¼ìª½ìœ¼ë¡œ ë¶™ì…ë‹ˆë‹¤*/
 }
 .sidebar ul  {
     padding: 0;
@@ -86,12 +86,12 @@ TEXTAREA { border-style:solid; border-color:black; border-width:1 }
     list-style-type: none;
 }
 
-/* menu ÀÇ ¸µÅ© ²Ù¹Ì±â ¾ø°Ô*/
+/* menu ì˜ ë§í¬ ê¾¸ë¯¸ê¸° ì—†ê²Œ*/
 .sidebar ul li a {
     text-decoration: none;
 }
 
-/* content ºÎºĞ */
+/* content ë¶€ë¶„ */
 #content {
     float: left;
     width: 83%;
@@ -144,7 +144,7 @@ TEXTAREA { border-style:solid; border-color:black; border-width:1 }
     clear:both;
 }
 
-/* id= footer ·Î Á¤ÇØÁø°÷À» ºÎ¸¨´Ï´Ù */
+/* id= footer ë¡œ ì •í•´ì§„ê³³ì„ ë¶€ë¦…ë‹ˆë‹¤ */
 #footer {
     background: #333; /* url(footer.gif);*/
     border: 1px solid #ddd;
@@ -189,7 +189,7 @@ TEXTAREA { border-style:solid; border-color:black; border-width:1 }
 
 
 
-/* ½ºÅ©·Ñ Á¤ÀÇ */
+/* ìŠ¤í¬ë¡¤ ì •ì˜ */
 body { scrollbar-face-color:#EAEAEA;
 scrollbar-shadow-color:#f7f7f7;
 scrollbar-highlight-color:#f7f7f7;
@@ -198,9 +198,9 @@ scrollbar-darkshadow-color:#666666;
 scrollbar-track-color:#f7f7f7;
 scrollbar-arrow-color:#238020; }
 
-/* Å×ÀÌºí¿¡ ´ëÇÑ ±âº» ½ºÅ¸ÀÏ Á¤ÀÇ */
-font {font-family: "±¼¸²"; font-size: 10pt; line-height:16px ; color: #222222}
-td {font-family: "±¼¸²"; font-size: 9pt; line-height:16px ; color: #222222}
+/* í…Œì´ë¸”ì— ëŒ€í•œ ê¸°ë³¸ ìŠ¤íƒ€ì¼ ì •ì˜ */
+font {font-family: "êµ´ë¦¼"; font-size: 10pt; line-height:16px ; color: #222222}
+td {font-family: "êµ´ë¦¼"; font-size: 9pt; line-height:16px ; color: #222222}
 
 table
 {
@@ -210,14 +210,14 @@ table
 
 
 
-A:link		{font-family: "±¼¸²"; COLOR:#333333; FONT-SIZE:9pt;TEXT-DECORATION: none}
-A:visited	{font-family: "±¼¸²";COLOR:#333333;FONT-SIZE: 9pt;TEXT-DECORATION: none}
-A:active	{font-family: "±¼¸²";COLOR: #333333; FONT-SIZE: 9pt; TEXT-DECORATION: none}
-A:hover		{font-family: "±¼¸²";COLOR:#E35A18; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+A:link		{font-family: "êµ´ë¦¼"; COLOR:#333333; FONT-SIZE:9pt;TEXT-DECORATION: none}
+A:visited	{font-family: "êµ´ë¦¼";COLOR:#333333;FONT-SIZE: 9pt;TEXT-DECORATION: none}
+A:active	{font-family: "êµ´ë¦¼";COLOR: #333333; FONT-SIZE: 9pt; TEXT-DECORATION: none}
+A:hover		{font-family: "êµ´ë¦¼";COLOR:#E35A18; FONT-SIZE: 9pt; TEXT-DECORATION: none}
 
-/* Å×ÀÌºí ¹Ú½ºÀÇ Á¦¸ñÁÙ */
+/* í…Œì´ë¸” ë°•ìŠ¤ì˜ ì œëª©ì¤„ */
 .tabletitle { color: white; }
-.font115 { FONT-SIZE:11.5px ; FONT-FAMILY: µ¸¿ò,arial,Tahoma, Arial;}
+.font115 { FONT-SIZE:11.5px ; FONT-FAMILY: ë‹ì›€,arial,Tahoma, Arial;}
 
 .centerLocation
 {
@@ -233,7 +233,7 @@ A:hover		{font-family: "±¼¸²";COLOR:#E35A18; FONT-SIZE: 9pt; TEXT-DECORATION: no
     FONT-SIZE: 10pt;
     COLOR: #404040;
     LINE-HEIGHT: 150%;
-    FONT-FAMILY: µ¸¿ò;
+    FONT-FAMILY: ë‹ì›€;
     TEXT-ALIGN: right
 }
 .centerTip2
@@ -241,7 +241,7 @@ A:hover		{font-family: "±¼¸²";COLOR:#E35A18; FONT-SIZE: 9pt; TEXT-DECORATION: no
     FONT-SIZE: 10pt;
     COLOR: #404040;
     LINE-HEIGHT: 150%;
-    FONT-FAMILY: µ¸¿ò
+    FONT-FAMILY: ë‹ì›€
 }
 .search_box
 {
@@ -249,7 +249,7 @@ A:hover		{font-family: "±¼¸²";COLOR:#E35A18; FONT-SIZE: 9pt; TEXT-DECORATION: no
     FONT-SIZE: 9pt;
     COLOR: darkblue;
     LINE-HEIGHT: 150%;
-    FONT-FAMILY: µ¸¿ò;
+    FONT-FAMILY: ë‹ì›€;
     TEXT-ALIGN: right
 }
 
@@ -277,7 +277,7 @@ A:hover		{font-family: "±¼¸²";COLOR:#E35A18; FONT-SIZE: 9pt; TEXT-DECORATION: no
     COLOR: #666666;
     PADDING-TOP: 3px;
     BORDER-BOTTOM: #999999 0px solid;
-    FONT-FAMILY: µ¸¿ò
+    FONT-FAMILY: ë‹ì›€
 }
 
 .flash
@@ -287,7 +287,7 @@ A:hover		{font-family: "±¼¸²";COLOR:#E35A18; FONT-SIZE: 9pt; TEXT-DECORATION: no
     VERTICAL-ALIGN: bottom;
     LINE-HEIGHT: 100%;
     PADDING-TOP: 0px;
-    FONT-FAMILY: ±¼¸²
+    FONT-FAMILY: êµ´ë¦¼
 }
 .topMenu
 {
@@ -300,7 +300,7 @@ A:hover		{font-family: "±¼¸²";COLOR:#E35A18; FONT-SIZE: 9pt; TEXT-DECORATION: no
     COLOR: #f1f1f1;
     BORDER-TOP-COLOR: #83b1d1;
     LINE-HEIGHT: 170%;
-    FONT-FAMILY: µ¸¿ò;
+    FONT-FAMILY: ë‹ì›€;
     BORDER-RIGHT-WIDTH: 0px;
     BORDER-RIGHT-COLOR: #999999
 }
